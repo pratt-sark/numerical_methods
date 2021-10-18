@@ -106,7 +106,7 @@ void main()
     }    
     else //the digit after q-th place is '5'
     {
-        /**Note: Odd-Even rounding system has been used. 
+        /**Note: Odd-Even rounding system have been used. 
         Odd q-th digit stimulates round_up and Even q-th digit stimulates round_level. 
         Eg: For 2 decimal places, 2.835 -> 2.84, whereas 2.865->2.86 */
         if (n[q]%2==0)
