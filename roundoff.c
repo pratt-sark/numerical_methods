@@ -161,3 +161,4 @@ void shift_to_this_index_from_right(char* n, int x)
         n[i-1]=n[i];
     n[i-1]='\0';
 }
+
