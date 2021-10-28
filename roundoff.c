@@ -68,7 +68,7 @@ void main()
     {
         //Note: We are essentially making the number to an integer by removing the point first,
         //and then removing the insignificant digits by the same rounding-off rules below.
-        //Eg: 44.63 becomes 4463, then becomes 4400, and as trailing_zeroes is false by default, becomes 44.
+        //Eg: 44.63 becomes 4463, then becomes 4500, and as trailing_zeroes is false by default, becomes 45.
         q = position_of_point-1;
         shift_to_this_index_from_right(n,q+1); //to remove the decimal point
     }
