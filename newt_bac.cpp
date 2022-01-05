@@ -121,7 +121,7 @@ class InputSet
 
 int main()
 {
-    cout<<"\n\n-----------Newton's Forward Interpolation for Equal Intervals--------\n\n";
+    cout<<"\n\n-----------Newton's Backward Interpolation for Equal Intervals--------\n\n";
     cout<<"How many (x,f(x)) pairs are known?\n";
     int n; cin>>n;
     InputSet inp;
